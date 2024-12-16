@@ -20,8 +20,15 @@ This project provides a web-based application for **brain tumor detection** from
 - **Scikit-learn**: For machine learning classification using a polynomial classifier.
 - **Pillow (PIL)**: For image manipulation and visualization.
 
+## Dataset
+
+This project uses the **Brain Tumor MRI Dataset** for training and testing. The dataset contains **MRI scans** of brain tumors with annotations, making it ideal for tumor segmentation and classification tasks. It includes a variety of tumor types (gliomas, meningiomas, etc.) and their different characteristics.
+
+**Dataset Link**: (https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
+
 ## Project Structure
-/brain-tumor-detection │ ├── app.py # Main Flask application ├── /static │ ├── /uploads # Folder for uploaded images │ └── /outputs # Folder for result images ├── /templates │ ├── index.html # Upload page │ └── result.html # Results page ├── /models │ ├── polynomial_classifier.pkl # Trained polynomial classifier │ ├── pca_transform.pkl # PCA transformation model │ ├── label_encoder.pkl # Label encoding for tumor types │ └── unet_tumor_segmentation_model.h5 # Pre-trained U-Net model └── requirements.txt # List of required Python packages
+![Screenshot 2024-12-16 235200](https://github.com/user-attachments/assets/97d75dcb-9d8e-4cf4-bf64-6869c42082ae)
+
 
 ## Setup
 
